@@ -1,0 +1,26 @@
+{
+    "name": "slot_sage",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [],
+    "author": "Wishva Chandrasekara",
+    "license": "ISC",
+    "main": "./src/api/index.ts",
+    "type": "commonjs",
+    "scripts": {
+        "build": "tsc --build",
+        "start": "cd ./src && cd ./api && npx nodemon index.ts"
+    },
+    "dependencies": {
+        "express": "^4.19.2",
+        "global": "^4.4.0",
+        "tsx": "^4.10.5"
+    },
+    "devDependencies": {
+        "@types/node": "^20.12.12",
+        "nodemon": "^3.1.0",
+        "ts-node": "^10.9.2",
+        "tsx": "^4.10.5",
+        "typescript": "^5.4.5"
+    }
+}
