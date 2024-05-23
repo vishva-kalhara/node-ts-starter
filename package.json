@@ -7,6 +7,12 @@
   "license": "ISC",
   "main": "./src/api/index.ts",
   "type": "commonjs",
+  "contributors": [
+    {
+      "name": "Sachithu",
+      "url": "https://github.com/sachithu1"
+    }
+  ],
   "scripts": {
     "test": "jest",
     "test:integrations": "jest --testPathPattern=src/__tests__/integrations",
